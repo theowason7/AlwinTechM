@@ -6,7 +6,7 @@ import java.io.File;
 public class FileSize {
     public static void main(String[] args) {
 
-        String filePath = "S:\\java\\TechM\\src\\Week3\\IOExceptions\\ListOfAllFiles.java";
+        String filePath = "C:\\java\\TechM\\src\\Week3\\IOExceptions\\ListOfAllFiles.java";
 
         File file = new File(filePath);
 
