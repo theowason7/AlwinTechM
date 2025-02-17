@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 //9. Write a Java program to read the contents of a file into a byte array.
 public class ReadFileToByteArray {
     public static void main(String[] args) {
-        String filePath = "S:\\java\\TechM\\src\\Name";
+        String filePath = "C:\\java\\TechM\\src\\Name";
 
         try {
             byte[] fileBytes = readFileToByteArray(filePath);
