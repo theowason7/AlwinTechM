@@ -7,7 +7,7 @@ import java.io.IOException;
 public class ReadPlainTextFile {
     public static void main(String[] args) {
 
-        String filePath = "S:\\java\\TechM\\src\\Name";
+        String filePath = "C:\\java\\TechM\\src\\Name";
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
