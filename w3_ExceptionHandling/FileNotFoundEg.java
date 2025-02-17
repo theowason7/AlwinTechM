@@ -14,7 +14,7 @@ public class FileNotFoundEg {
 
 	public static void main(String[] args) {
 		try {
-			readFile( "S:\\java\\TechM\\src\\Name"); // Change path accordingly
+			readFile( "C:\\java\\TechM\\src\\Name"); // Change path accordingly
 		} catch (FileNotFoundException e) {
 			System.out.println("Exception caught: File not found.");
 		}
