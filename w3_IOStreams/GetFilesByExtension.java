@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class GetFilesByExtension {
     public static void main(String[] args) {
         // Specify the folder path and the desired file extension
-        String folderPath = "C:\\Users\\STENI DEV S A\\Downloads";
+        String folderPath = "C:\\Users\\THEODORE ALWIN WASON\\Downloads";
         String extension = "pdf";
 
         // Get the list of files with the specified extension
