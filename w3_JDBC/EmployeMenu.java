@@ -5,7 +5,7 @@ import java.sql.*;
 public class EmployeMenu {
     public static final String URL = "jdbc:mysql://localhost:3306/employee";
     public static final String USER = "root";
-    public static final String PASSWORD = "Dev@2003";
+    public static final String PASSWORD = "ALWIN@2004";
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
