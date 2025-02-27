@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Back to Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>User Reviews</h2>
+        <form id="review-form">
+            <input type="text" id="movie-name" placeholder="Movie Name" required>
+            <textarea id="review-text" placeholder="Write your review..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="reviews-container"></div>
+    </main>
+
+    <script src="reviews.js"></script>
+</body>
+</html>

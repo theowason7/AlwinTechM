@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: white;
+}
+
+/* Navigation */
+nav {
+    background: #222;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.latest-reviews {
+    padding: 20px;
+}
+
+.movie-card {
+    background: #333;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 300px;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.read-more {
+    display: block;
+    margin-top: 10px;
+    color: red;
+}
+.review-item {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.review-item strong {
+    color: #f39c12;
+}
+
+.review-item p {
+    margin: 5px 0 0;
+}
